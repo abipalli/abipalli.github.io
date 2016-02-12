@@ -126,6 +126,7 @@ navigation section
 home section
 ========================================================================== */
 #home {
+    background: #3B3B3B url('../images/home-bg-slideshow1.jpg');
   background-size: cover;
   background-position: center;
   color: #ffffff;
