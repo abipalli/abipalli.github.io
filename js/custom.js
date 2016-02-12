@@ -1,6 +1,6 @@
 
 // ISOTOPE FILTER
-jQuery(document).ready(function($){
+jQuery(document).ready(function($) {
 
   if ( $('.iso-box-wrapper').length > 0 ) { 
 
@@ -90,9 +90,8 @@ $(function(){
   // NIVO LIGHTBOX
   $('.iso-box-section a').nivoLightbox({
         effect: 'fadeScale',
-    });
-
-
+    });    
+    
   // HOME BACKGROUND SLIDESHOW
   $(function(){
     jQuery(document).ready(function() {
