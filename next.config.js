@@ -7,8 +7,10 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     loader: 'akamai',
-    path: './'
-  }
+    path: ''
+  },
+  basePath: "/nextjs-pages",
+  assetPrefix: "/next-pages"
 }
 
 module.exports = (phase, { defaultConfig }) => {
