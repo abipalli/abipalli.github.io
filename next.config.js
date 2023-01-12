@@ -9,8 +9,6 @@ const nextConfig = {
     loader: 'akamai',
     path: ''
   },
-  basePath: "/nextjs-pages",
-  assetPrefix: "/next-pages"
 }
 
 module.exports = (phase, { defaultConfig }) => {
