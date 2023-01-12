@@ -77,7 +77,7 @@ export const AcademiaExperience: IExperience[] = [
     {
         companyName: "Dorrestein Lab, Skaggs School of Pharmacy",
         position: "CS Researcher",
-        companyImage: "/images/amazon.png",
+        companyImage: "/images/ucsd.svg",
         summaries: [
             "Created open-source modules for MZmine2 & OpenMS using Java and C++ frameworks (for proteogenetic data analysis)",
             "Designed automated workflows using Python scripts for spectrometry data processing for GNPS Data Analysis",
