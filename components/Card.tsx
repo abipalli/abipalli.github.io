@@ -35,22 +35,26 @@ export default function Card({ companyImage, tools, summaries, position, company
 
                 <p className='font-bold text-2xl mt-1'>{companyName}</p>
 
-                <div className='flex space-x-2 my-2'>
-                    {
-                        tools?.map((tools, index) => {
-                            return (
-                                <p key={index}>Tool!</p>
-                            )
-                        })
-                    }
-                </div>
+                {
+                    tools ?
+                        <div className='flex space-x-2 my-2'>
+                            {
+                                tools?.map((tools, index) => {
+                                    return (
+                                        <p key={index}>Tool!</p>
+                                    )
+                                })
+                            }
+                        </div>
+                        : undefined
+                }
 
                 <p className="uppercase py-5 text-gray-300">
                     {`${dates?.start} — ${dates?.end}`}
                 </p>
 
                 <div className='overflow-scroll'>
-                    <ul className='list-disc space-y-4 ml-5 text-lg'>
+                    <ul className='list-disc space-y-2 ml-5 md:text-lg text-md'>
                         {
                             summaries?.map((summary, index) => {
                                 return (
