@@ -29,6 +29,8 @@ jobs:
     - run: npm ci
     - run: npm run lint
     - run: npm run build
+      env:
+        STAGE: production
     - run: npm run export
     - run: touch ./out/.nojekyll
 
