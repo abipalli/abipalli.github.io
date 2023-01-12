@@ -29,12 +29,10 @@ const Hero = (props: HeroProps) => {
         >
             {/* <BackgroundCircles /> */}
 
-            < Image
-                className='rounded-full object-cover w-32 h-32 mx-auto'
-                width={180}
-                height={180}
-                src={"/images/profile.jpeg"}
-                alt=''
+            <motion.img
+                className='rounded-full object-cover w-64 h-64 mx-auto'
+                src="/images/profile.jpeg"
+                alt="it's supposed to be a picture of me"
             />
             <div className='space-y-3 mb-8'>
                 <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
