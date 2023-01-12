@@ -23,4 +23,12 @@
   .sectionTitle {
     @apply absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl;
   }
+
+  .carousel-placeholder {
+    @apply flex flex-shrink-0 w-[400px] md:w-[600px] xl:w-[550px];
+  }
+
+  .gradient {
+    background-image: '-webkit-gradient(linear, left top, left bottom, from(rgba(50,50,50,0.8)), to(rgba(80,80,80,0.2)), color-stop(.5,#333333))';
+  }
 }

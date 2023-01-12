@@ -3,9 +3,9 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import { NextPage } from 'next'
 import About from '../components/About'
-import Experience from '../components/Experience'
+import Industry from '../components/Industry'
 import Calendly from '../components/Calendly'
-import Involvements from '../components/Involvements'
+import Academia from '../components/Academia'
 
 const Home: NextPage = () => {
   return (
@@ -29,15 +29,16 @@ const Home: NextPage = () => {
         <About />
       </section>
 
-      {/* Experience */}
-      <section id="experience" className='snap-center'>
-        <Experience />
+      {/* Academia */}
+      <section id="academia-experience" className='snap-center'>
+        <Academia />
       </section>
 
-      {/* Involvements */}
-      <section id="involvements" className='snap-center'>
-        <Involvements />
+      {/* Industry */}
+      <section id="industry-experience" className='snap-center'>
+        <Industry />
       </section>
+
 
       {/* Projects */}
       {/* <section id='projects' className='snap-center'>
