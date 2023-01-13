@@ -34,7 +34,7 @@ const Header = (props: PropsWithoutRef<HeaderProps>) => {
                 <a className="headerButton" href="https://linkedin.com/in/abisarvepalli">
                     <TfIcons.TfiLinkedin color="orange" title="LinkedIn" />
                 </a>
-                <a className="headerButton" href="https://github.com/in/abisarvepalli">
+                <a className="headerButton" href="https://github.com/abisarvepalli">
                     <TfIcons.TfiGithub color="orange" title="GitHub" />
                 </a>
             </motion.div>
@@ -56,8 +56,8 @@ const Header = (props: PropsWithoutRef<HeaderProps>) => {
                 }}
                 className='flex flex-row align-middle'
             >
-                <a className="headerButton " href="#contact">
-                    <BsIcons.BsCalendar color="orange" title="Calendly" />
+                <a className="headerButton" href="#contact">
+                    <BsIcons.BsTelephoneFill color="orange" title="Calendly" />
                 </a>
             </motion.div>
         </header>

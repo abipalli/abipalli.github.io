@@ -11,13 +11,14 @@
     @apply
     px-6 py-2 justify-center flex-shrink
     border border-gray-900
-    text-sm tracking-widest text-gray-500
+    text-sm tracking-widest bg-transparent text-orange-500
     rounded-full uppercase
-    hover:border-[#F7AB0A]/40 hover:bg-orange-400 hover:text-white hover:font-semibold;
+    hover:border-[#F7AB0A]/40 hover:bg-orange-400 hover:text-white font-semibold
+    transition-colors;
   }
 
   .section {
-    @apply h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0;
+    @apply h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0 mb-8;
   }
 
   .sectionTitle {
