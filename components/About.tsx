@@ -39,7 +39,7 @@ export default function About({ }: Props) {
             <div className='space-y-2 mt-28 px-8 md:px-10 flex flex-col'>
                 <div>
                     <p className='font-light text-xl sm:text-3xl text-centesr italic'>
-                        "The goal is not to
+                        {"\"The goal is not to"}
                         <span className='text-orange-500 font-semibold opacity-80'>
                             {" coerce "}
                         </span>
