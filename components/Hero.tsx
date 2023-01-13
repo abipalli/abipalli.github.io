@@ -18,7 +18,7 @@ const Hero = (props: HeroProps) => {
         ],
         loop: true,
         typeSpeed: 79,
-        deleteSpeed: 100,
+        deleteSpeed: 50,
         delaySpeed: 2000
     })
 
