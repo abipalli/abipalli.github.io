@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 import { NextPage } from 'next'
 import About from '../components/About'
 import Industry from '../components/Industry'
-import Calendly from '../components/Calendly'
+import Contact from '../components/Contact'
 import Academia from '../components/Academia'
 
 const Home: NextPage = () => {
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
 
       {/* Contact Me */}
       <section id='contact' className='snap-center'>
-        <Calendly />
+        <Contact />
       </section>
     </div>
   )

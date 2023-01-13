@@ -11,8 +11,10 @@ const Hero = (props: HeroProps) => {
     const [typewriterString, typewriterHelper] = useTypewriter({
         words: [
             'web@3.0',
+            'data',
             'productivity',
-            'finance',
+            'photography',
+            'music',
         ],
         loop: true,
         typeSpeed: 79,
@@ -25,7 +27,8 @@ const Hero = (props: HeroProps) => {
         <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'
+            transition={{ duration: 1 }}
+            className='h-screen flex flex-col space-y-10 items-center justify-center text-center overflow-hidden px-5'
         >
             {/* <BackgroundCircles /> */}
 
@@ -38,31 +41,36 @@ const Hero = (props: HeroProps) => {
                 <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
                     Software Engineer
                 </h2>
-                <h1 className="text-3xl lg:text-6xl font-semibold scroll-px-10 text-center">
-                    <span className='text-3xl lg:text-6xl text-gray-300'>
-                        abinesh::interest::
-                    </span>
-                    <span className=''>{typewriterString}</span>
-                    <Cursor cursorColor='#f97316' />
-                </h1>
             </div>
 
-            <div className='flex md:flex-row flex-col z-10 space-y-3 md:space-y-0 md:space-x-3 justify-evenly'>
-                <Link href={"#about"}>
-                    <button className="heroButton">About</button>
-                </Link>
-                <Link href={"#academia-experience"}>
-                    <button className="heroButton">Academia</button>
-                </Link>
-                <Link href={"#industry-experience"}>
-                    <button className="heroButton">Industry</button>
-                </Link>
-                {/* <Link href={"#projects"}>
+            <div className='relative flex flex-col space-y-16'>
+                <div className='space-y-3 text-xl sm:text-3xl md:text-6xl'>
+                    <h1 className="font-semibold scroll-px-10 text-center">
+                        <span className='text-2xl sm:text-3xl md:text-6xl text-gray-300'>
+                            abinesh::interest::
+                        </span>
+                        <span className='text-2xl sm:text-3xl md:text-6xl'>{typewriterString}</span>
+                        <Cursor cursorColor='#f97316' />
+                    </h1>
+                </div>
+
+                <div className='relative flex md:flex-row flex-col space-y-4 md:space-y-0 md:space-x-3 justify-center'>
+                    <Link href={"#about"}>
+                        <button className="heroButton">About</button>
+                    </Link>
+                    <Link href={"#academia-experience"}>
+                        <button className="heroButton">Academia</button>
+                    </Link>
+                    <Link href={"#industry-experience"}>
+                        <button className="heroButton">Industry</button>
+                    </Link>
+                    {/* <Link href={"#projects"}>
                     <button className="heroButton">Projects</button>
                 </Link> */}
-                <Link href={"#contact"}>
-                    <button className="heroButton">Contact</button>
-                </Link>
+                    <Link href={"#contact"}>
+                        <button className="heroButton">Contact</button>
+                    </Link>
+                </div>
             </div>
         </motion.div >
     )
