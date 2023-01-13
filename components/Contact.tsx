@@ -26,7 +26,7 @@ export default function Contact({ }: Props) {
                     <span className='text-orange-500 font-semibold'>
                         {"I'm always looking to talk "}
                     </span>
-                    about tech stacks, entrepreneurship, photography, travel, whatever it may be
+                    about tech stacks, entrepreneurship, photography, travel, whatever it may be.
                 </p>
             </div>
 
