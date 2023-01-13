@@ -21,16 +21,16 @@ export default function Contact({ }: Props) {
                 Contact
             </h4>
 
-            <div className='relative flex mt-28 px-8 md:px-10'>
+            <div className='relative flex mt-28 px-8 md:px-10 text-2xl md:text-3xl justify-center text-center'>
                 <p>
                     <span className='text-orange-500 font-semibold'>
-                        {"I'm always looking to talk"}
+                        {"I'm always looking to talk "}
                     </span>
                     about tech stacks, entrepreneurship, photography, travel, whatever it may be
                 </p>
             </div>
 
-            <div className='flex flex-col space-y-8'>
+            <div className='flex flex-col space-y-12 text-2xl md:text-3xl font-semibold'>
                 <motion.button
                     initial={{
                         x: -100
