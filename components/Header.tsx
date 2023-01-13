@@ -59,6 +59,9 @@ const Header = (props: PropsWithoutRef<HeaderProps>) => {
                 <a className="headerButton" href="#contact">
                     <BsIcons.BsTelephoneFill color="orange" title="Calendly" />
                 </a>
+                <a className="headerButton" href="https://t.me/abipalli">
+                    <BsIcons.BsTelegram color="orange" title="Telegram" />
+                </a>
             </motion.div>
         </header>
     )

@@ -32,7 +32,7 @@ export default function Contact({ }: Props) {
 
             <div className='flex flex-col space-y-12 text-2xl md:text-3xl font-semibold'>
                 <motion.a
-                    href='https://calendly.com/abisarvepalli/30min'
+                    href='https://t.me/abipalli'
                     initial={{
                         x: -100
                     }}
@@ -44,7 +44,7 @@ export default function Contact({ }: Props) {
                     className='flex px-20 py-4 bg-orange-500 rounded-lg justify-center'
                 >
                     <button>
-                        Casual Chat
+                        Casual Chat @Telegram
                     </button>
                 </motion.a>
                 <motion.a
