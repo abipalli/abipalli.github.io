@@ -31,7 +31,8 @@ export default function Contact({ }: Props) {
             </div>
 
             <div className='flex flex-col space-y-12 text-2xl md:text-3xl font-semibold'>
-                <motion.button
+                <motion.a
+                    href='https://calendly.com/abisarvepalli/30min'
                     initial={{
                         x: -100
                     }}
@@ -40,11 +41,13 @@ export default function Contact({ }: Props) {
                     }}
                     viewport={{ once: true }}
                     transition={{ duration: 1.5 }}
-                    className='px-20 py-4 bg-orange-500 rounded-md '
+                    className='flex px-20 py-4 bg-orange-500 rounded-lg justify-center'
                 >
-                    Casual Chat
-                </motion.button>
-                <motion.button
+                    <button>
+                        Casual Chat
+                    </button>
+                </motion.a>
+                <motion.a
                     initial={{
                         x: 100
                     }}
@@ -53,10 +56,13 @@ export default function Contact({ }: Props) {
                     }}
                     viewport={{ once: true }}
                     transition={{ duration: 1.5 }}
-                    className=' px-20 py-4 bg-orange-500 rounded-md animate-pulse'
+                    href="https://calendly.com/abisarvepalli/recruiting"
+                    className='flex px-20 py-4 bg-orange-500 rounded-lg animate-pulse justify-center'
                 >
-                    Recruiting
-                </motion.button>
+                    <button>
+                        Recruiting
+                    </button>
+                </motion.a>
             </div>
 
             <div className='flex flex-col px-8 md:px-10 space-y-8 text-gray-200'>
@@ -65,26 +71,6 @@ export default function Contact({ }: Props) {
                     <span className='text-orange-600 font-bold'>{" abinesh sarvepalli "}</span>
                 </p>
             </div>
-
-            {/* <div className='w-full flex mt-32 space-x-5 px-20 overflow-x-scroll snap-x snap-mandatory items-center justify-evenly h-[400px] mb-20'>
-                <InlineWidget
-                    url="https://calendly.com/abisarvepalli/recruiting"
-                    styles={{
-                        width: '100%',
-                        height: '500px'
-                    }}
-                    pageSettings={{
-                        backgroundColor: 'rgb(36,36,36)',
-                        hideEventTypeDetails: false,
-                        hideLandingPageDetails: false,
-                        primaryColor: '00a2ff',
-                        textColor: '4d5055'
-                    }}
-                />
-            </div> */}
-
-
-
         </motion.div >
     )
 }
