@@ -34,11 +34,11 @@ const Header = (props: PropsWithoutRef<HeaderProps>) => {
                 <a className="headerButton" href="https://open.spotify.com/user/abisarvepalli?si=82da22440bd34680">
                     <BsIcons.BsSpotify color="orange" title="Spotify" />
                 </a>
-                <a className="headerButton" href="https://linkedin.com/in/abisarvepalli">
-                    <TfIcons.TfiLinkedin color="orange" title="LinkedIn" />
-                </a>
                 <a className="headerButton" href="https://github.com/abisarvepalli">
                     <TfIcons.TfiGithub color="orange" title="GitHub" />
+                </a>
+                <a className="headerButton" href="https://linkedin.com/in/abisarvepalli">
+                    <TfIcons.TfiLinkedin color="orange" title="LinkedIn" />
                 </a>
             </motion.div>
 
