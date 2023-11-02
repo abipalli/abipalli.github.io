@@ -47,7 +47,7 @@ export default function Contact({ }: Props) {
                         Casual Chat @Telegram
                     </button>
                 </motion.a>
-                <motion.a
+{/*                 <motion.a
                     initial={{
                         x: 100
                     }}
@@ -62,7 +62,7 @@ export default function Contact({ }: Props) {
                     <button>
                         Recruiting
                     </button>
-                </motion.a>
+                </motion.a> */}
             </div>
 
             <div className='flex flex-col px-8 md:px-10 space-y-8 text-gray-200'>
