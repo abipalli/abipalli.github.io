@@ -30,7 +30,7 @@ export default function Projects({ }: Props) {
             transition={{ duration: 1.5 }}
             className='section'
         >
-            <h4 className='sectionTitle'>Projects</h4>
+            <h3 className='sectionTitle'>Projects</h3>
 
             <div className='relative w-full overflow-x-scroll snap snap-mandatory z-20 flex flex-row space-x-5 px-20'>
                 {/* projects */}

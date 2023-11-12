@@ -30,8 +30,8 @@ const Header = (props: PropsWithoutRef<HeaderProps>) => {
                 }}
                 className="flex flex-row items-center justify-between"
             >
-                {/* Social Icons */}                
-                <a className="headerButton" href="https://github.com/abisarvepalli">
+                {/* Social Icons */}
+                <a className="headerButton" href="https://github.com/abipalli">
                     <TfIcons.TfiGithub color="orange" title="GitHub" />
                 </a>
                 <a className="headerButton" href="https://linkedin.com/in/abisarvepalli">

@@ -1,6 +1,20 @@
 /* eslint-disable import/no-anonymous-default-export */
 export const IndustryExperience: IExperience[] = [
     {
+        companyName: "GatewayDAO",
+        position: "Senior Blockchain Engineer",
+        companyImage: "/images/gatewaydao.png",
+        summaries: [
+            "Tech Lead for Data Governance and Privacy practices (e.g. encryption, user-data sovereignty)",
+            "Optimize devops strategy and minimize dev-to-production overhead",
+            "Facilitate technical partner-client relationships and oversee partner launches on our platform",
+        ],
+        dates: {
+            start: "Mar 2023",
+            end: "Present",
+        },
+    },
+    {
         companyName: "Coinbase",
         position: "Blockchain Engineer, IC4",
         companyImage: "/images/coinbase.png",
@@ -61,6 +75,19 @@ export const IndustryExperience: IExperience[] = [
 
 export const AcademiaExperience: IExperience[] = [
     {
+        position: "Computer Security (M.S.)",
+        companyName: "USC Viterbi School of Engineering",
+        companyImage: "/images/usc.png",
+        summaries: [
+            "Coursework: Applied Cryptography, Network Security, Software Security, Malware Analysis, Blockchain Security",
+            "Research: Privacy-Preserving Machine Learning, Blockchain Security, Blockchain Interoperability",
+        ],
+        dates: {
+            start: "Jul 2023",
+            end: "Present",
+        },
+    },
+    {
         companyName: "BlockLab, San Diego Supercomputer Center",
         position: "Research Advisor",
         companyImage: "/images/blocklab.png",
@@ -86,6 +113,19 @@ export const AcademiaExperience: IExperience[] = [
         dates: {
             start: "Mar 2017",
             end: "Jun 2020",
+        },
+    },
+    {
+        position: "Computer Science (B.S.)",
+        companyName: "UCSD Jacobs School of Engineering",
+        companyImage: "/images/ucsd.svg",
+        summaries: [
+            "Coursework: Data Structures & Algorithms, Operating Systems, Computer Networks, Database Systems, Software Engineering, Computer Architecture, Programming Languages, Compiler Design, Theory of Computation",
+            "Research: Proteogenetics, Machine Learning, Distributed Systems, Blockchain Interoperability",
+        ],
+        dates: {
+            start: "Jul 2023",
+            end: "Present",
         },
     },
 ];

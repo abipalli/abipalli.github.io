@@ -28,28 +28,28 @@ const Hero = (props: HeroProps) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            className='h-screen flex flex-col space-y-10 items-center justify-center text-center overflow-hidden px-5'
+            className='h-screen flex flex-col space-y-6 items-center justify-center text-center overflow-hidden px-5'
         >
             {/* <BackgroundCircles /> */}
 
             <motion.img
-                className='rounded-full object-cover w-64 h-64 mx-auto'
+                className='rounded-full object-cover w-36 h-36 mx-auto sm:w-64 sm:h-64'
                 src="/images/profile.jpeg"
                 alt="it's supposed to be a picture of me"
             />
-            <div className='space-y-3 mb-8'>
-                <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
-                    Software Engineer
+            <div className='mb-8'>
+                <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[10px]">
+                    ENGINEER
                 </h2>
             </div>
 
             <div className='relative flex flex-col space-y-16'>
-                <div className='space-y-3 text-xl sm:text-3xl md:text-6xl'>
+                <div className='space-y-3 text-2xl sm:text-4xl lg:text-6xl'>
                     <h1 className="font-semibold scroll-px-10 text-center">
-                        <span className='text-2xl sm:text-3xl md:text-6xl text-gray-300'>
+                        <span className='text-gray-300'>
                             abinesh::interest::
                         </span>
-                        <span className='text-2xl sm:text-3xl md:text-6xl'>{typewriterString}</span>
+                        <span>{typewriterString}</span>
                         <Cursor cursorColor='#f97316' />
                     </h1>
                 </div>

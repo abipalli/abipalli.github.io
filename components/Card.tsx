@@ -15,7 +15,7 @@ type Props = {
 
 export default function Card({ companyImage, tools, summaries, position, companyName, dates }: Props) {
     return (
-        <article className='relative flex flex-col mb-8 rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[550px] h-[600px] snap-center bg-[#292929] p-10 opacity-100 cursor-pointer duration-200 overflow-scroll'>
+        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[650px] sm:h-[650px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-scroll'>
             <motion.img
                 initial={{
                     x: 1000,
