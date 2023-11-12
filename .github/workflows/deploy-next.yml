@@ -21,19 +21,19 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        
-    - run: npm ci
-    - run: npm run lint
-    - run: npm run build
+
+    - run: npm install -g pnpm
+    - run: pnpm install
+    - run: pnpm build
       env:
         STAGE: production
-    - run: npm run export
+    - run: pnpm run export
     - run: touch ./out/.nojekyll
 
     - name: Deploy 🚀
