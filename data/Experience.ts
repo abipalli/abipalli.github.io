@@ -2,7 +2,7 @@
 export const IndustryExperience: IExperience[] = [
     {
         companyName: "GatewayDAO",
-        position: "Senior Blockchain Engineer",
+        position: "Network Architect & Systems Engineer, Lead",
         companyImage: "/images/gatewaydao.png",
         summaries: [
             "Tech Lead for Data Governance and Privacy practices (e.g. encryption, user-data sovereignty)",
